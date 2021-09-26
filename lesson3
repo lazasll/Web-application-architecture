@@ -36,14 +36,14 @@ final class Logger
     }
 }
 
-//Наследование мы запретили (класс final)
+//Наследование запрещено (класс final)
 /*class Logger2 extends Logger {
     public function __construct()
     {
     }
 }
 
-//Создание через new мы запретили
+//Создание через new запрещено
 $l = new Logger2();*/
 
 $logger = Logger::getInstance();
